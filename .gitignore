@@ -1,19 +1,10 @@
+# .gitignore
 .env
-main.py
-
-api.py
-
-db.py
-test_accounts.py
-test_api.py
-test_market.py
-test_sandbox.py
-tg_bot.py
-trade.py
-trades.db
+*.db
+__pycache__/
+*.py[cod]
 
 # Секреты и конфиденциальные данные
-.env
 *.env
 *.key
 *.pem
